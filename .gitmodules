@@ -1,3 +1,0 @@
-[submodule "ds3935"]
-	path = ds3935
-	url = ssh://gerrit.maxim-ic.com:29418/ds3935
