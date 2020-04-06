@@ -12,4 +12,3 @@ qwe
 ghj
 rty
 qwerty
-EnginTest
