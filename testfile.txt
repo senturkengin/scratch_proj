@@ -9,4 +9,3 @@ def
 ghj
 tyu
 qwe
-ghj
