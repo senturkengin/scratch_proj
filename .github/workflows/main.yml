@@ -11,7 +11,7 @@ jobs:
       with:
         url: "http://hqmsslwks205.maxim-ic.com:8080/job/Github_Test/"
         user: "engin.senturk"
-        token: ${{ secrets.11b87a4c9aa2f1e6f3bdc72ef13d75e038 }}
+        token: ${{ secrets.TOKEN }}
         job: "Github_Test"
         
         
