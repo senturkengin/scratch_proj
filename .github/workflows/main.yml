@@ -6,12 +6,13 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - name: trigger single Job
-      uses: senturkengin/scratch_proj@master
-      with:
-        url: "http://hqmsslwks205.maxim-ic.com:8080/job/Github_Test/"
-        user: "engin.senturk"
-        token: ${{ secrets.TOKEN }}
-        job: "Github_Test"
+      - uses: actions/checkout@v2
+      - name: trigger single Job
+      - uses: senturkengin/scratch_proj@master
+        with:
+          url: "http://hqmsslwks205.maxim-ic.com:8080/job/Github_Test/"
+          user: "engin.senturk"
+          token: ${{ secrets.TOKEN }}
+          job: "Github_Test"
         
         
